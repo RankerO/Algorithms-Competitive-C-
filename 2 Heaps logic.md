@@ -7,3 +7,27 @@ take max heap and min heap , and push minimum elements in max heap and maximum e
  It does not modify its arguments and returns a copy of the argument advanced by the specified amount.
  prev function-
  Returns a copy of the argument advanced by the specified amount in the backward direction
+ 
+ example->
+    vector<int> v = {0, 1, 3, 4, 6, 7};
+    multiset<int> st(v.begin(), v.begin()+3);
+    auto md = next(st.begin(), 1);
+    auto previous_element = prev(md, 1);
+    cout << *md << endl; 
+    output-> 1
+    cout <<*previous_element<< endl;
+    output-> 0
+    
+    set_output->
+      for(auto c:st)
+    {
+        cout << c << " ";
+    }
+    cout << endl;
+    0,1,3
+ 
+    auto md = next(st.begin(), 2);
+    md--; 
+    cout<<*md<<endl;
+    output->
+    1;
