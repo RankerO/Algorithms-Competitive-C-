@@ -5,6 +5,7 @@
 - Raising a to the power of n is expressed naively as multiplication by a done n-1 times.However, this approach is not practical for large  a or n.
 - ![](https://i.imgur.com/qR08zJG.png)
 - ![](https://i.imgur.com/oK0B7B3.png)
+
 **Recursive approach**
 ```c++
 int powwer(int x,int y)
