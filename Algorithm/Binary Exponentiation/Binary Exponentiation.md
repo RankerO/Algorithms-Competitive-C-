@@ -1,7 +1,6 @@
 # Binary Exponentiation 
 [Reference](https://cp-algorithms.com/algebra/binary-exp.html#algorithm)
 - Binary exponentiation (also known as exponentiation by squaring) is a trick which allows to calculate   $a^n$ using only   $O(\log n)$  multiplications.
-
 ### Algorithm
 - Raising a to the power of n is expressed naively as multiplication by a done n-1 times.However, this approach is not practical for large  a or n.
 - ![](https://i.imgur.com/qR08zJG.png)
