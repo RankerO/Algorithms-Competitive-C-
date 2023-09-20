@@ -3,6 +3,11 @@
 - Binary exponentiation (also known as exponentiation by squaring) is a trick which allows to calculate   $a^n$ using only   $O(\log n)$  multiplications.
 
 ### Algorithm
+- Raising  
+$a$  to the power of  
+$n$  is expressed naively as multiplication by  
+$a$  done  
+$n - 1$  times:  
 
 ```c++
 int powwer(int x,int y)
